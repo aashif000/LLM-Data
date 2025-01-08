@@ -1,0 +1,73 @@
+
+{
+  "audio_generation_models": [
+    {
+      "name": "AudioGen Medium",
+      "use_case": "audio generation",
+      "hardware": "A10G",
+      "description": "A text-to-audio model for creating short snippets of sound effects like dogs barking or footsteps in a hallway.",
+      "example_usage": {
+        "inputs": {
+          "prompts": ["dog barking"],
+          "duration": 8
+        },
+        "output": {
+          "data": [
+            "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBg..."
+          ]
+        }
+      },
+      "developer": "Meta",
+      "license": "A10G"
+    },
+    {
+      "name": "MusicGen Melody",
+      "use_case": "audio generation",
+      "hardware": "A10G",
+      "description": "A melody-guided music generation model that reimagines a provided melody in a specified style.",
+      "example_usage": {
+        "inputs": {
+          "prompts": [
+            "An 80s driving pop song with heavy drums and synth pads in the background"
+          ],
+          "duration": 10,
+          "melody": "Base64 string of melody input"
+        },
+        "output": {
+          "data": [
+            "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAA..."
+          ]
+        }
+      },
+      "developer": "Meta",
+      "model_family": "AudioGen",
+      "variant": "Melody",
+      "size": "Medium",
+      "license": "CC BY-NC 4.0"
+    },
+    {
+      "name": "MusicGen Large",
+      "use_case": "audio generation",
+      "hardware": "A10G",
+      "description": "A text-to-audio model for generating short music samples in specified styles or moods.",
+      "example_usage": {
+        "inputs": {
+          "prompts": [
+            "90s rock song with electric guitar and heavy drums"
+          ],
+          "duration": 10
+        },
+        "output": {
+          "data": [
+            "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAA..."
+          ]
+        }
+      },
+      "developer": "Meta",
+      "model_family": "AudioGen",
+      "variant": "Music",
+      "size": "Large",
+      "license": "CC BY-NC 4.0"
+    }
+  ]
+}
