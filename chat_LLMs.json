@@ -1,0 +1,113 @@
+
+{
+  "ChatModels": [
+    {
+      "name": "DeepSeek V3",
+      "description": "DeepSeek's latest open Mixture-of-Experts model challenging top AI models at much lower cost."
+    },
+    {
+      "name": "Llama 3.1 405B",
+      "description": "The Meta Llama 3.1 collection of multilingual large language models (LLMs) is a collection of pre-trained and instruction tuned generative models in 8B, 70B and 405B sizes, that outperform many available open source and closed chat models on common industry benchmarks."
+    },
+    {
+      "name": "Llama 3.3 70B",
+      "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). Optimized for multilingual dialogue use cases."
+    },
+    {
+      "name": "Gemma-2 Instruct (27B)",
+      "description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models."
+    },
+    {
+      "name": "Qwen 2.5 72B",
+      "description": "Powerful decoder-only models available in 7B and 72B variants, developed by Alibaba Cloud's Qwen team for advanced language processing."
+    },
+    {
+      "name": "Llama 3.1 Nemotron 70B Instruct",
+      "description": "This LLM is customized by NVIDIA to improve the helpfulness of LLM-generated responses to user queries."
+    },
+    {
+      "name": "DBRX-Instruct",
+      "description": "DBRX Instruct is a mixture-of-experts (MoE) large language model trained from scratch by Databricks. Specializes in few-turn dialogue."
+    },
+    {
+      "name": "Deepseek-67B",
+      "description": "Trained from scratch on a vast dataset of 2 trillion tokens in both English and Chinese."
+    },
+    {
+      "name": "Arctic-Instruct",
+      "description": "Arctic is a dense-MoE Hybrid transformer architecture pre-trained from scratch by the Snowflake AI Research Team."
+    },
+    {
+      "name": "Striped Hyena Nous",
+      "description": "A hybrid architecture composed of multi-head, grouped-query attention and gated convolutions arranged in Hyena blocks, different from traditional decoder-only Transformers."
+    },
+    {
+      "name": "Llama 3.2 11B Free",
+      "description": "Free endpoint to try Llama 3.2 11B."
+    },
+    {
+      "name": "Llama 3.2 90B",
+      "description": "The Llama 3.2-Vision collection features multimodal LLMs (11B and 90B) optimized for visual recognition, image reasoning, captioning, and answering image-related questions."
+    },
+    {
+      "name": "Qwen QwQ 32B Preview",
+      "description": "Experimental research model by Alibaba's Qwen team focused on enhancing AI reasoning capabilities."
+    },
+    {
+      "name": "Typhoon 1.5X 70B-awq",
+      "description": "Thai language 70B instruct model rivaling GPT-4-0612; optimized for RAG, constrained generation, and reasoning tasks."
+    },
+    {
+      "name": "Mixtral 8x7B",
+      "description": "The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts."
+    },
+    {
+      "name": "Mistral Instruct",
+      "description": "Instruct fine-tuned version of Mistral-7B-v0.1."
+    },
+    {
+      "name": "Typhoon 1.5 8B Instruct",
+      "description": "Instruct Thai large language model with 8 billion parameters based on Llama3-8B."
+    },
+    {
+      "name": "Nous Capybara",
+      "description": "First Nous collection of dataset and models made by fine-tuning mostly on data created by Nous in-house."
+    },
+    {
+      "name": "Code Llama Instruct",
+      "description": "Code Llama is a family of large language models for code based on Llama 2 providing infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks."
+    },
+    {
+      "name": "vicuna-v1-5-16k",
+      "description": "Vicuna is a chat assistant trained by fine-tuning Llama 2 on user-shared conversations collected from ShareGPT."
+    },
+    {
+      "name": "Wizard LM",
+      "description": "This model achieves a substantial and comprehensive improvement on coding, mathematical reasoning, and open-domain conversation capacities."
+    },
+    {
+      "name": "MythoMax-L2",
+      "description": "MythoLogic-L2 and Huginn merge using a highly experimental tensor type merge technique."
+    },
+    {
+      "name": "Qwen-Chat",
+      "description": "7B-parameter version of the large language model series, Qwen (abbr. Tongyi Qianwen), proposed by Alibaba Cloud."
+    },
+    {
+      "name": "RedPajama-INCITE Chat",
+      "description": "Chat model fine-tuned using data from Dolly 2.0 and Open Assistant over the RedPajama-INCITE-Base-7B-v1 base model."
+    },
+    {
+      "name": "GPT-NeoXT-Chat-Base",
+      "description": "Chat model fine-tuned from EleutherAI’s GPT-NeoX with over 40 million instructions on carbon reduced compute."
+    },
+    {
+      "name": "Falcon Instruct",
+      "description": "Falcon-40B-Instruct is a causal decoder-only model built by TII based on Falcon-40B and fine-tuned on a mixture of Baize."
+    },
+    {
+      "name": "Pythia-Chat-Base",
+      "description": "Chat model based on EleutherAI’s Pythia-7B model, fine-tuned with data focusing on dialog-style interactions."
+    }
+  ]
+}
