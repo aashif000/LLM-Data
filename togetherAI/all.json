@@ -286,7 +286,7 @@
         "Pricing": "N/A",
         "Type": "Chat"
     },
- ```json
+
     {
         "name": "FLUX.1 Depth [dev]",
         "description": "12 billion parameter rectified flow transformer capable of generating an image based on a text description while following the structure of a given input image.",
@@ -367,7 +367,7 @@
     {
         "name": "Salesforce LlamaRank",
         "description": "Salesforce Research's proprietary fine-tuned rerank model with 8K context, outperforming Cohere Rerank for superior document retrieval.",
-        ```json
+        
         "size": "N/A",
         "Pricing": "N/A",
         "Type": "Rerank"
@@ -453,8 +453,7 @@
         "name": "GPT-JT",
         "description": "Fork of GPT-J instruction tuned to excel at few-shot prompts (blog post).",
         "size": "N/A",
-        "Pricing": ```json
-"N/A",
+        "Pricing":"N/A",
         "Type": "Language"
     },
     {
