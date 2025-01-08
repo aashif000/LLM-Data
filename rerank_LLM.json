@@ -1,0 +1,10 @@
+
+
+{
+  "RerankModels": [
+    {
+      "name": "Salesforce LlamaRank",
+      "description": "Salesforce Research's proprietary fine-tuned rerank model with 8K context, outperforming Cohere Rerank for superior document retrieval."
+    }
+  ]
+}
