@@ -76,13 +76,7 @@
         "Pricing": "$0.50/M Tokens",
         "Type": "LLM"
     },
-    {
-        "name": "DeepSeek Coder 1.3B Base",
-        "description": "DeepSeek Coder 1.3B Base is a foundational coding model with 1.3 billion parameters "description": "DeepSeek Coder 1.3B Base is a foundational coding model with 1.3 billion parameters, designed for basic coding tasks and supporting a context length of 16k tokens.",
-        "size": "1.3B",
-        "Pricing": "N/A",
-        "Type": "LLM"
-    },
+    
     {
         "name": "CodeGemma 2B",
         "description": "CodeGemma 2B is a lightweight coding model with 2 billion parameters, suitable for small-scale code generation tasks with a context length of 8k tokens.",
@@ -246,7 +240,7 @@
     },
     {
         "name": "Phind CodeLlama 34B v2",
-        " "description": "Phind CodeLlama 34B v2 is a specialized coding model with 34 billion parameters, optimized for code generation tasks with a context length of 16k tokens.",
+        "description": "Phind CodeLlama 34B v2 is a specialized coding model with 34 billion parameters, optimized for code generation tasks with a context length of 16k tokens.",
         "size": "34B",
         "Pricing": "N/A",
         "Type": "LLM"
@@ -410,12 +404,6 @@
         "description": "OpenHermes 2.5 - Mistral 7B is a versatile model with 7 billion parameters, designed for various applications with a context length of 32k tokens.",
         "size": "7B",
         "Pricing": "N/A",
-        "Type": "LLM"
-    },
-    {
-        "name": "LLaVA V1.6 Yi 34B",
-        "description": "LLaVA V1.6 Yi 34B is a large-scale model designed for various applications, featuring a context length of 4k tokens.",
-        "size": "34B "Pricing": "N/A",
         "Type": "LLM"
     },
     {
