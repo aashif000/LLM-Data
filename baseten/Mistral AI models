@@ -1,0 +1,138 @@
+
+
+{
+  "models": [
+    {
+      "name": "Mistral 7B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100 MIG 40GB",
+      "size": "7B",
+      "license": "Apache 2.0",
+      "use_case": "Large Language Model",
+      "example_usage": {
+        "input": "python",
+        "code": [
+          "import requests",
+          "import os",
+          "model_id = ''",
+          "baseten_api_key = os.environ['BASETEN_API_KEY']",
+          "data = {",
+          "  'messages': [",
+          "    {'role': 'system', 'content': 'You are a knowledgable, engaging, geology teacher.'},",
+          "    {'role': 'user', 'content': 'What is the impact of the Mistral wind on the French climate?'}",
+          "  ],",
+          "  'stream': True,",
+          "  'max_new_tokens': 512,",
+          "  'temperature': 0.9",
+          "}",
+          "res = requests.post(f'https://model-{model_id}.api.baseten.co/production/predict',",
+          "  headers={'Authorization': f'Api-Key {baseten_api_key}'},",
+          "  json=data,",
+          "  stream=True)",
+          "for content in res.iter_content():",
+          "  print(content.decode('utf-8'), end='', flush=True)"
+        ]
+      }
+    },
+    {
+      "name": "Pixtral 12B",
+      "type": "LLM",
+      "optimization": "vLLM",
+      "hardware": "A100",
+      "size": "12B",
+      "license": "Apache 2.0",
+      "use_case": "Multimodal (text + image)",
+      "example_usage": {
+        "input": "python",
+        "code": [
+          "import requests",
+          "import os",
+          "model_id = ''",
+          "baseten_api_key = os.environ['BASETEN_API_KEY']",
+          "messages = [",
+          "  {'role': 'system', 'content': 'You are a pirate chatbot who always responds in pirate speak!'},",
+          "  {'role': 'user', 'content': [",
+          "    {'type': 'text', 'text': 'What is this?'},",
+          "    {'type': 'image_url', 'image_url': {'url': 'https://easydrawingguides.com/wp-content/uploads/2018/03/how-to-draw-a-pirate-ship-featured-image-1200.png'}}",
+          "  ]}",
+          "]",
+          "data = {",
+          "  'messages': messages,",
+          "  'stream': True,",
+          "  'temperature': 0.5,",
+          "  'max_tokens': 512",
+          "}",
+          "res = requests.post(f'https://model-{model_id}.api.baseten.co/production/predict',",
+          "  headers={'Authorization': f'Api-Key {baseten_api_key}'},",
+          "  json=data,",
+          "  stream=True)",
+          "for content in res.iter_content():",
+          "  print(content.decode('utf-8'), end='', flush=True)"
+        ]
+      }
+    },
+    {
+      "name": "Mixtral 8x7B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "size": "8x7B",
+      "license": "Apache 2.0",
+      "use_case": "Mixture of Experts Architecture for Efficient Inference on General Chat Tasks",
+      "example_usage": {
+        "input": "python",
+        "code": [
+          "import requests",
+          "import os",
+          "model_id = ''",
+          "baseten_api_key = os.environ['BASETEN_API_KEY']",
+          "data = {",
+          "  'messages': [",
+          "    {'role': 'system', 'content': 'You are a knowledgable, engaging, geology teacher.'},",
+          "    {'role': 'user', 'content': 'What is the impact of the Mistral wind on the French climate?'}",
+          "  ],",
+          "  'stream': True,",
+          "  'max_new_tokens': 512,",
+          "  'temperature': 0.9",
+          "}",
+          "res = requests.post(f'https://model-{model_id}.api.baseten.co/production/predict',",
+          "  headers={'Authorization': f'Api-Key {baseten_api_key}'},",
+          "  json=data,",
+          "  stream=True)",
+          "for content in res.iter_content():",
+          "  print(content.decode('utf-8'), end='', flush=True)"
+        ]
+      }
+    },
+    {
+      "name": "Mixtral 8x22B",
+      "type": "LLM",
+      "hardware": "H100",
+      "size": "8x22B",
+      "license": "Apache 2.0",
+      "use_case": "State-of-the-Art General Chat Applications",
+      "example_usage": {
+        "input": "python",
+        "code": [
+          "import requests",
+          "import os",
+          "model_id = ''",
+          "baseten_api_key = os.environ['BASETEN_API_KEY']",
+          "data = {",
+          "  'prompt': 'Instruction: Answer the following question. What is a llama's favorite food?',",
+          "  'stream': True,",
+          "  'max_new_tokens': 512,",
+          "  'temperature': 0.9",
+          "}",
+          "res = requests.post(f'https://model-{model_id}.api.baseten.co/production/predict',",
+          "  headers={'Authorization': f'Api-Key {baseten_api_key}'},",
+          "  json=data,",
+          "  stream=True)",
+          "for content in res.iter_content():",
+          "  print(content.decode('utf-8'), end='', flush=True)"
+        ]
+      }
+    }
+  ]
+}
