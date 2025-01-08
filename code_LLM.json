@@ -1,0 +1,22 @@
+ 
+
+{
+  "CodeModels": [
+    {
+      "name": "Qwen 2.5 Coder 32B Instruct",
+      "description": "SOTA code LLM with advanced code generation, reasoning, fixing, and support for up to 128K tokens."
+    },
+    {
+      "name": "WizardCoder Python v1.0",
+      "description": "This model empowers Code LLMs with complex instruction fine-tuning, by adapting the Evol-Instruct method to the domain of code."
+    },
+    {
+      "name": "Code Llama Python",
+      "description": "Code Llama is a family of large language models for code based on Llama 2 providing infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks."
+    },
+    {
+      "name": "Code Llama",
+      "description": "Code Llama is a family of large language models for code based on Llama 2 providing infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks."
+    }
+  ]
+}
