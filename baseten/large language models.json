@@ -1,0 +1,119 @@
+
+{
+  "models": [
+    {
+      "name": "DeepSeek-V3",
+      "type": "LLM",
+      "optimization": "SGLang",
+      "hardware": "H200",
+      "description": "A state-of-the-art 671B-parameter MoE LLM licensed for commercial use",
+      "api_endpoint": "https://model-{MODEL_ID}.api.baseten.co/environments/production/predict",
+      "usage": {
+        "max_tokens": 1024,
+        "example": "Write FizzBuzz in Python"
+      },
+      "developer": "DeepSeek",
+      "family": "DeepSeek",
+      "use_case": "large language",
+      "version": "V3",
+      "size": "671B"
+    },
+    {
+      "name": "Llama 3.3 70B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "description": "Meta's latest open source large language model",
+      "api_endpoint": "https://model-{model_id}.api.baseten.co/production/predict",
+      "usage": {
+        "temperature": 0.6,
+        "top_p": 1.0,
+        "top_k": 40,
+        "frequency_penalty": 1,
+        "example": "What was the role of Llamas in the Inca empire?"
+      },
+      "developer": "Meta",
+      "family": "Llama",
+      "use_case": "large language",
+      "version": "3.3",
+      "size": "70B"
+    },
+    {
+      "name": "Llama 3.1 70B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "description": "State of the art midsize LLM from Meta",
+      "api_endpoint": "https://model-{model_id}.api.baseten.co/production/predict",
+      "usage": {
+        "temperature": 0.6,
+        "top_p": 1.0,
+        "top_k": 40,
+        "frequency_penalty": 1,
+        "example": "What was the role of Llamas in the Inca empire?"
+      },
+      "developer": "Meta",
+      "family": "Llama",
+      "use_case": "large language",
+      "version": "3.1",
+      "variant": "Instruct",
+      "size": "70B"
+    },
+    {
+      "name": "Qwen 2.5 7B Math Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100 MIG 40GB",
+      "description": "A small model in the Qwen family of LLMs, tuned for math",
+      "api_endpoint": "https://model-{model_id}.api.baseten.co/production/predict",
+      "usage": {
+        "temperature": 0.9,
+        "example": "Find the value of $x$ that satisfies the equation $4x+5 = 6x+7$."
+      },
+      "developer": "Qwen",
+      "family": "Qwen",
+      "use_case": "large language",
+      "version": "2.5",
+      "variant": "Math",
+      "size": "7B",
+      "license": "Apache 2.0"
+    },
+    {
+      "name": "Qwen 2.5 14B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "description": "A midsize model in the Qwen family of LLMs",
+      "api_endpoint": "https://model-{model_id}.api.baseten.co/production/predict",
+      "usage": {
+        "temperature": 0.9,
+        "example": "What does Tongyi Qianwen mean?"
+      },
+      "developer": "Qwen",
+      "family": "Qwen",
+      "use_case": "large language",
+      "version": "2.5",
+      "size": "14B",
+      "license": "Apache 2.0"
+    },
+    {
+      "name": "Qwen 2.5 32B Coder Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "description": "A large model in the Qwen family of LLMs, tuned for coding",
+      "api_endpoint": "https://model-{model_id}.api.baseten.co/production/predict",
+      "usage": {
+        "temperature": 0.9,
+        "example": "Write a Python script for fizzbuzz."
+      },
+      "developer": "Qwen",
+      "family": "Qwen",
+      "use_case": "large language",
+      "version": "2.5",
+      "variant": "Coder",
+      "size": "32B",
+      "license": "Apache 2.0"
+    }
+  ]
+}
