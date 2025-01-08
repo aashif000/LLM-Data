@@ -1,0 +1,99 @@
+
+{
+  "models": [
+    {
+      "name": "Llama 3.3 70B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "description": "Meta's latest open source large language model",
+      "use_case": "large language",
+      "version": "3.3",
+      "size": "70B",
+      "license": "Llama 3.3 Community License",
+      "example_usage": {
+        "language": "python",
+        "code_snippet": {
+          "import_statements": ["import requests"],
+          "model_id": "",
+          "api_key": "os.environ['BASETEN_API_KEY']",
+          "data": {
+            "messages": [
+              { "role": "system", "content": "You are a knowledgeable, engaging, history teacher." },
+              { "role": "user", "content": "What was the role of Llamas in the Inca empire?" }
+            ],
+            "stream": true,
+            "max_new_tokens": 512,
+            "temperature": 0.6,
+            "top_p": 1.0,
+            "top_k": 40,
+            "frequency_penalty": 1
+          },
+          "endpoint": "https://model-{model_id}.api.baseten.co/production/predict"
+        }
+      }
+    },
+    {
+      "name": "Llama 3.1 70B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "description": "State of the art midsize LLM from Meta",
+      "use_case": "large language",
+      "version": "3.1",
+      "variant": "Instruct",
+      "size": "70B",
+      "license": "Llama 3.1",
+      "example_usage": { ... }
+    },
+    {
+      "name": "Llama 3.1 8B Instruct",
+      "type": "LLM",
+      "optimization": "TRT-LLM",
+      "hardware": "H100",
+      "description": "State of the art open-source 8B LLM by Meta",
+      "use_case": "large language",
+      "version": "3.1",
+      "variant": "Instruct",
+      "size": "8B",
+      "license": "Llama 3.1",
+      "example_usage": { ... }
+    },
+    {
+      "name": "Llama 3.1 405B Instruct",
+      "type": "LLM",
+      "hardware": "H100",
+      "description": "The best open source large language model",
+      "use_case": "large language",
+      "version": "3.1",
+      "variant": "Instruct",
+      "size": "405B",
+      "license": "Llama 3.1",
+      "example_usage": { ... }
+    },
+    {
+      "name": "Llama 3.2 11B Vision Instruct",
+      "type": "LLM",
+      "hardware": "A100",
+      "description": "A vision-capable chat LLM from Meta",
+      "use_case": "large language",
+      "version": "3.2",
+      "variant": "Vision",
+      "size": "11B",
+      "license": "Llama 3.2 Community License",
+      "example_usage": { ... }
+    },
+    {
+      "name": "Llama 3.2 90B Vision Instruct",
+      "type": "LLM",
+      "hardware": "H100",
+      "description": "A SOTA vision-capable chat LLM from Meta",
+      "use_case": "large language",
+      "version": "3.2",
+      "variant": "Vision",
+      "size": "90B",
+      "license": "Llama 3.2 Community License",
+      "example_usage": { ... }
+    }
+  ]
+}
