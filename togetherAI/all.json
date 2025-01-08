@@ -1,0 +1,488 @@
+[
+    {
+        "name": "Llama Guard v3 1B 128k Context",
+        "description": "Llama Guard v3 1B is a protective model with 1 billion parameters, designed to enhance safety in AI applications with a context length of 128k tokens.",
+        "size": "1B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Stable Diffusion 3.5 Medium",
+        "description": "Stable Diffusion 3.5 Medium is a serverless image generation model, optimized for medium-sized outputs.",
+        "size": "N/A",
+        "Pricing": "$0.035/ea",
+        "Type": "Image Generation"
+    },
+    {
+        "name": "Llama 3.3 70B",
+        "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperform many of the available open source and closed chat models on common industry benchmarks.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "FLUX1.1 [pro]",
+        "description": "Premium image generation model by Black Forest Labs.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Image"
+    },
+    {
+        "name": "DeepSeek-V3",
+        "description": "DeepSeek's latest open Mixture-of-Experts model challenging top AI models at much lower cost.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Gemma-2 Instruct (27B)",
+        "description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models.",
+        "size": "27B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Qwen 2.5 72B",
+        "description": "Powerful decoder-only models available in 7B and 72B variants, developed by Alibaba Cloud's Qwen team for advanced language processing.",
+        "size": "72B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Llama 3.1 Nemotron 70B Instruct",
+        "description": "This LLM is customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Mixtral-8x22B",
+        "description": "The Mixtral-8x22B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.",
+        "size": "8x22B",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "DBRX-Instruct",
+        "description": "DBRX Instruct is a mixture-of-experts (MoE) large language model trained from scratch by Databricks. DBRX Instruct specializes in few-turn.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Deepseek-67B",
+        "description": "Trained from scratch on a vast dataset of 2 trillion tokens in both English and Chinese.",
+        "size": "67B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Arctic-Instruct",
+        "description": "Arctic is a dense-MoE Hybrid transformer architecture pre-trained from scratch by the Snowflake AI Research Team.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Striped Hyena Nous",
+        "description": "A hybrid architecture composed of multi-head, grouped-query attention and gated convolutions arranged in Hyena blocks, different from traditional decoder-only Transformers.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Llama 3.2 11B Free",
+        "description": "Free endpoint to try Llama 3.2 11B.",
+        "size": "11B",
+        "Pricing": "Free",
+        "Type": "Chat"
+    },
+    {
+        "name": "Llama 3.2 90B",
+        "description": "The Llama 3.2-Vision collection features multimodal LLMs (11B and 90B) optimized for visual recognition, image reasoning, captioning, and answering image-related questions.",
+        "size": "90B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Llama 3.1 8B",
+        "description": "The Meta Llama 3.1 collection of multilingual large language models (LLMs) is a collection of pre-trained and instruction tuned generative models in 8B, 70B and 405B sizes, that outperform many available open source and closed chat models on common industry benchmarks.",
+        "size": "8B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Llama 3.2 11B",
+        "description": "The Llama 3.2-Vision collection features multimodal LLMs (11B and 90B) optimized for visual recognition, image reasoning, captioning, and answering image-related questions.",
+        "size": "11B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "FLUX.1 [schnell] Free",
+        "description": "Free endpoint for the SOTA open-source image generation model by Black Forest Labs.",
+        "size": "N/A",
+        "Pricing": "Free",
+        "Type": "Image"
+    },
+    {
+        "name": "FLUX.1 [schnell]",
+        "description": "Fastest available endpoint for the SOTA open-source image generation model by Black Forest Labs.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Image"
+    },
+    {
+        "name": "Llama 3.1 405B",
+        "description": "The Meta Llama 3.1 collection of multilingual large language models (LLMs) is a collection of pre-trained and instruction tuned generative models in 8B, 70B and 405B sizes, that outperform many available open source and closed chat models on common industry benchmarks.",
+        "size": "405B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Qwen QwQ 32B Preview",
+        "description": "Experimental research model by Alibaba's Qwen team focused on enhancing AI reasoning capabilities.",
+        "size": "32B",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "UAE-Large v1",
+        "description": "An universal English sentence embedding model by WhereIsAI. Its embedding dimension is 1024, it takes up to 512 context length.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Qwen 2",
+        "description": "A transformer-based decoder-only language model pre-trained on a large amount of data. In comparison with the previously released Qwen.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "01-AI Yi",
+        "description": "The Yi series models are large language models trained from scratch by developers at 01.AI.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Code"
+    },
+    {
+        "name": "Qwen 2.5 Coder 32B Instruct",
+        "description": "SOTA code LLM with advanced code generation, reasoning, fixing, and support for up to 128K tokens.",
+        "size": "32B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Typhoon 1.5X 70B-awq",
+        "description": "Thai language 70B instruct model rivaling GPT-4-0612; optimized for RAG, constrained generation, and reasoning tasks.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Mixtral 8x7B",
+        "description": "The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts.",
+        "size": "8x7B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "M2-BERT 80M 32K Retrieval",
+        "description": "An 80M checkpoint of M2-BERT, pretrained with sequence length 32768, and it has been fine-tuned for long-context retrieval.",
+        "size": "80M",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "Stable Diffusion XL 1.0",
+        "description": "A text-to-image generative AI model that excels at creating 1024x1024 images.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Image"
+    },
+    {
+        "name": "Mistral Instruct",
+        "description": "Instruct fine-tuned version of Mistral-7B-v0.1.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "FLUX.1 [dev]",
+        "description": "12 billion parameter rectified flow transformer capable of generating images from text descriptions.",
+        "size": "12B",
+        "Pricing": "N/A",
+        "Type": "Image"
+    },
+    {
+        "name": "Nexus Raven",
+        "description": "NexusRaven is an open-source and commercially viable function calling LLM that surpasses the state-of-the-art in function calling capabilities.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Typhoon 1.5 8B Instruct",
+        "description": "Instruct Thai large language model with 8 billion parameters based on Llama3-8B.",
+        "size": "8B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Nous Capybara",
+        "description": "First Nous collection of dataset and models made by fine-tuning mostly on data created by Nous in-house.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "FLUX.1 Redux [dev]",
+        "description": "Adapter for FLUX.1 models enabling image variation, refining input images, and integrating into advanced restyling workflows.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Code Llama Instruct",
+        "description": "Code Llama is a family of large language models for code based on Llama 2 providing infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Code"
+    },
+    {
+        "name": "RedPajama-INCITE Instruct",
+        "description": "Designed for few-shot prompts, fine-tuned over the RedPajama-INCITE-Base-7B-v1 base model.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "vicuna-v1-5-16k",
+        "description": "Vicuna is a chat assistant trained by fine-tuning Llama 2 on user-shared conversations collected from ShareGPT.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "FLUX.1 Canny [dev]",
+        "description": "12 billion parameter rectified flow transformer capable of generating an image based on a text description while following the structure of a given input image.",
+        "size": "12B",
+        "Pricing": "N/A",
+        "Type": "Image"
+    },
+    {
+        "name": "Nous Hermes Llama-2",
+        "description": "Nous-Hermes-Llama2-13b is a state-of-the-art language model fine-tuned on over 300,000 instructions.",
+        "size": "13B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Wizard LM",
+        "description": "This model achieves a substantial and comprehensive improvement on coding, mathematical reasoning and open-domain conversation capacities.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+ ```json
+    {
+        "name": "FLUX.1 Depth [dev]",
+        "description": "12 billion parameter rectified flow transformer capable of generating an image based on a text description while following the structure of a given input image.",
+        "size": "12B",
+        "Pricing": "N/A",
+        "Type": "Image"
+    },
+    {
+        "name": "BGE-Large-EN v1.5",
+        "description": "BAAI general embedding - large, english - model v1.5. FlagEmbedding can map any text to a low-dimensional dense vector which can be used for tasks like retrieval, classification, clustering, or semantic search. And it also can be used in vector databases for LLMs.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "M2-BERT 80M 2K Retrieval",
+        "description": "An 80M checkpoint of M2-BERT, pretrained with sequence length 2048, and it has been fine-tuned for long-context retrieval.",
+        "size": "80M",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "M2-BERT 80M 8K Retrieval",
+        "description": "An 80M checkpoint of M2-BERT, pretrained with sequence length 8192, and it has been fine-tuned for long-context retrieval.",
+        "size": "80M",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "WizardCoder Python v1.0",
+        "description": "This model empowers Code LLMs with complex instruction fine-tuning, by adapting the Evol-Instruct method to the domain of code.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Code"
+    },
+    {
+        "name": "BGE-Base-EN v1.5",
+        "description": "BAAI general embedding - base, english - model v1.5. FlagEmbedding can map any text to a low-dimensional dense vector which can be used for tasks like retrieval, classification, clustering, or semantic search. And it also can be used in vector databases for LLMs.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "LLaMA-2-7B-32K-Instruct",
+        "description": "Extending LLaMA-2 to 32K context, built with Meta's Position Interpolation and Together AI's data recipe and system optimizations, instruction tuned by Together.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Mistral",
+        "description": "7.3B parameter model that outperforms Llama 2 13B on all benchmarks, approaches CodeLlama 7B performance on code, Uses Grouped-query attention (GQA) for faster inference and Sliding Window Attention (SWA) to handle longer sequences at smaller cost.",
+        "size": "7.3B",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "Code Llama",
+        "description": "Code Llama is a family of large language models for code based on Llama 2 providing infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "LLaMA-2-32K",
+        "description": "Extending LLaMA-2 to 32K context, built with Meta's Position Interpolation and Together AI's data recipe and system optimizations.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "Chronos Hermes",
+        "description": "This model is a 75/25 merge of Chronos (13B) and Nous Hermes (13B) models resulting in having a great ability to produce evocative storywriting and follow a narrative.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Salesforce LlamaRank",
+        "description": "Salesforce Research's proprietary fine-tuned rerank model with 8K context, outperforming Cohere Rerank for superior document retrieval.",
+        ```json
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Rerank"
+    },
+    {
+        "name": "Platypus2 Instruct",
+        "description": "An instruction fine-tuned LLaMA-2 (70B) model by merging Platypus2 (70B) by garage-bAInd and LLaMA-2 Instruct v2 (70B) by upstage.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "WizardLM v1.0 (70B)",
+        "description": "This model achieves a substantial and comprehensive improvement on coding, mathematical reasoning and open-domain conversation capacities.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "MythoMax-L2",
+        "description": "MythoLogic-L2 and Huginn merge using a highly experimental tensor type merge technique. The main difference with MythoMix is that I allowed more of Huginn to intermingle with the single tensors located at the front and end of a model.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Qwen-Chat",
+        "description": "7B-parameter version of the large language model series, Qwen (abbr. Tongyi Qianwen), proposed by Aibaba Cloud. Qwen-7B-Chat is a large-model-based AI assistant, which is trained with alignment techniques.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Qwen",
+        "description": "7B-parameter version of the large language model series, Qwen (abbr. Tongyi Qianwen), proposed by Aibaba Cloud. Qwen-7B is a Transformer-based large language model, which is pretrained on a large volume of data, including web texts, books, codes, etc.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "FLUX.1 [pro]",
+        "description": "First generation premium image generation model by Black Forest Labs.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Image"
+    },
+    {
+        "name": "RedPajama-INCITE Chat",
+        "description": "Chat model fine-tuned using data from Dolly 2.0 and Open Assistant over the RedPajama-INCITE-Base-7B-v1 base model.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "BERT",
+        "description": "Pretrained model on English language using a masked language modeling (MLM) objective. The embedding dimension is 768, and the number of model parameters is 110M. This model is uncased: it does not make a difference between english and English.",
+        "size": "110M",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "RedPajama-INCITE",
+        "description": "Base model that aims to replicate the LLaMA recipe as closely as possible (blog post).",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "Sentence-BERT",
+        "description": "This is a sentence-transformers model: It maps sentences & paragraphs to a 768 dimensional dense vector space and was designed for semantic search. It has been trained on 500K (query, answer) pairs from the MS MARCO dataset. Its embedding dimension is 768 with 512 max context length.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Embeddings"
+    },
+    {
+        "name": "GPT-JT-Moderation",
+        "description": "This model can be used to moderate other chatbot models. Built using GPT-JT model fine-tuned on Ontocord.ai's OIG-moderation dataset v0.1.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "GPT-JT",
+        "description": "Fork of GPT-J instruction tuned to excel at few-shot prompts (blog post).",
+        "size": "N/A",
+        "Pricing": ```json
+"N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "GPT-NeoXT-Chat-Base",
+        "description": "Chat model fine-tuned from EleutherAI’s GPT-NeoX with over 40 million instructions on carbon reduced compute.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "LLaMA",
+        "description": "An auto-regressive language model, based on the transformer architecture. The model comes in different sizes: 7B, 13B, 33B and 65B parameters.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "Chat"
+    },
+    {
+        "name": "Falcon Instruct",
+        "description": "Falcon-40B-Instruct is a causal decoder-only model built by TII based on Falcon-40B and finetuned on a mixture of Baize.",
+        "size": "40B",
+        "Pricing": "N/A",
+        "Type": "Language"
+    },
+    {
+        "name": "Falcon",
+        "description": "Falcon-40B is a causal decoder-only model built by TII and trained on 1,000B tokens of RefinedWeb enhanced with curated corpora.",
+        "size": "40B",
+        "Pricing": "N/A",
+        "Type": "Language"
+    }
+]
