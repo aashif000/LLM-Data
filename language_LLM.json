@@ -1,0 +1,66 @@
+
+
+{
+  "LanguageModels": [
+    {
+      "name": "DeepSeek V3",
+      "description": "DeepSeek's latest open Mixture-of-Experts model challenging top AI models at much lower cost."
+    },
+    {
+      "name": "Llama 3.1 405B",
+      "description": "The Meta Llama 3.1 collection of multilingual large language models (LLMs) is a collection of pre-trained and instruction-tuned generative models in 8B, 70B and 405B sizes, that outperform many available open-source and closed chat models on common industry benchmarks."
+    },
+    {
+      "name": "Llama 3.1 8B",
+      "description": "A smaller model variant of the Llama 3.1 collection, designed for faster inference with comparable accuracy."
+    },
+    {
+      "name": "Llama 3.2 3B",
+      "description": "Compact version of the Llama 3.2 series optimized for lightweight tasks and reduced computational load."
+    },
+    {
+      "name": "Llama 3.3 70B",
+      "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction-tuned generative model in 70B (text in/text out). Optimized for multilingual dialogue use cases."
+    },
+    {
+      "name": "Gemma-2 Instruct (27B)",
+      "description": "Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models."
+    },
+    {
+      "name": "Qwen 2.5 72B",
+      "description": "Powerful decoder-only models available in 7B and 72B variants, developed by Alibaba Cloud's Qwen team for advanced language processing."
+    },
+    {
+      "name": "Deepseek-67B",
+      "description": "Trained from scratch on a vast dataset of 2 trillion tokens in both English and Chinese."
+    },
+    {
+      "name": "Arctic-Instruct",
+      "description": "Arctic is a dense-MoE Hybrid transformer architecture pre-trained from scratch by the Snowflake AI Research Team."
+    },
+    {
+      "name": "Mixtral 8x7B",
+      "description": "The Mixtral-8x7B Large Language Model (LLM) is a pretrained generative Sparse Mixture of Experts."
+    },
+    {
+      "name": "Mistral Instruct",
+      "description": "Instruct fine-tuned version of Mistral-7B-v0.1."
+    },
+    {
+      "name": "Nous Capybara",
+      "description": "First Nous collection of dataset and models made by fine-tuning mostly on data created by Nous in-house."
+    },
+    {
+      "name": "Code Llama Instruct",
+      "description": "Code Llama is a family of large language models for code based on Llama 2 providing infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks."
+    },
+    {
+      "name": "RedPajama-INCITE Base",
+      "description": "A versatile foundational model built on the RedPajama dataset for a wide range of language tasks."
+    },
+    {
+      "name": "Pythia-Base",
+      "description": "A foundational model from EleutherAI’s Pythia series trained on a diverse corpus for general-purpose language understanding."
+    }
+  ]
+}
