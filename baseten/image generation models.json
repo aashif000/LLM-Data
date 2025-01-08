@@ -1,0 +1,137 @@
+
+{
+  "models": [
+    {
+      "name": "SDXL Lightning",
+      "developer": "ByteDance",
+      "family": "Stable Diffusion XL",
+      "version": "1.0",
+      "variant": "Lightning",
+      "use_case": "image generation",
+      "hardware": "A100",
+      "size": "XL",
+      "license": "OpenRAIL++M",
+      "description": "A variant of Stable Diffusion XL that generates 1024x1024 px images in 4 UNet steps, enabling near real-time image creation.",
+      "example_usage": {
+        "input": {
+          "prompt": "a picture of a rhino wearing a suit"
+        },
+        "output": {
+          "result": "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAA..."
+        }
+      }
+    },
+    {
+      "name": "Stable Diffusion 3 Medium",
+      "developer": "Stability AI",
+      "family": "Stable Diffusion",
+      "version": "3",
+      "use_case": "image generation",
+      "hardware": "A100",
+      "description": "State of the art open-source image generation model.",
+      "example_usage": {
+        "input": {
+          "prompt": "anime art of a steampunk inventor in their workshop, surrounded by gears, gadgets, and steam. He is holding a blue potion and a red potion, one in each hand",
+          "num_inference_steps": 30
+        },
+        "output": {
+          "output": "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAA..."
+        }
+      }
+    },
+    {
+      "name": "Stable Diffusion XL",
+      "developer": "Stability AI",
+      "family": "Stable Diffusion",
+      "version": "XL 1.0",
+      "use_case": "image generation",
+      "hardware": "A10G",
+      "size": "XL",
+      "license": "OpenRAIL++M",
+      "description": "A text-to-image foundation model that generates detailed images from short prompts.",
+      "example_usage": {
+        "input": {
+          "prompt": "a little boy looking through a large magical portal, the boy sees a futuristic human civilization in that portal, extremely detailed, trending on artstation, 8k",
+          "negative_prompt": "worst quality, low quality",
+          "width": 1248,
+          "height": 832,
+          "num_inference_steps": 35,
+          "guidance_scale": 14
+        },
+        "output": {
+          "status": "success",
+          "data": "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAA..."
+        }
+      }
+    },
+    {
+      "name": "flux-dev",
+      "developer": "Black Forest Labs",
+      "family": "FLUX.1",
+      "version": "dev",
+      "variant": "bloat16",
+      "use_case": "image generation",
+      "hardware": "H100 MIG 40GB",
+      "size": "12B",
+      "license": "FLUX.1 [dev] Non-Commercial License",
+      "description": "State-of-the-art image generation model with cutting edge output quality, second only to FLUX.1 pro.",
+      "example_usage": {
+        "input": {
+          "prompt": "red velvet cake spelling out the words 'FLUX DEV', tasty, food photography, dynamic shot"
+        },
+        "output": {
+          "output": "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAA..."
+        }
+      }
+    },
+    {
+      "name": "flux-schnell",
+      "developer": "Black Forest Labs",
+      "family": "FLUX.1",
+      "version": "schnell",
+      "variant": "bfloat16",
+      "use_case": "image generation",
+      "hardware": "H100 MIG 40GB",
+      "size": "12B",
+      "license": "Apache 2.0",
+      "description": "State-of-the-art image generation model.",
+      "example_usage": {
+        "input": {
+          "prompt": "red velvet cake spelling out the words 'FLUX SCHNELL', tasty, food photography, dynamic shot"
+        },
+        "output": {
+          "output": "iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAA..."
+        }
+      }
+    },
+    {
+      "name": "Comfy UI",
+      "developer": "Stability AI",
+      "use_case": "image generation",
+      "hardware": "A10G",
+      "description": "Run your ComfyUI workflow as an API.",
+      "example_usage": {
+        "input": {
+          "positive_prompt": "A highly detailed photo of a modern steampunk city, complete with elaborate gears, pipes, and machinery, 4k",
+          "negative_prompt": "blurry, text, low quality",
+          "controlnet_image": "https://storage.googleapis.com/logos-bucket-01/baseten_logo.png",
+          "seed": "randomized"
+        },
+        "output": {
+          "result": [
+            {
+              "node_id": 16,
+              "data": "iVBOR...",
+              "format": "png"
+            },
+            {
+              "node_id": 9,
+              "data": "iNALP...",
+              "format": "png"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
