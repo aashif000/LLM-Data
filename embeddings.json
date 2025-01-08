@@ -1,0 +1,38 @@
+
+
+{
+  "EmbeddingModels": [
+    {
+      "name": "UAE-Large v1",
+      "description": "An universal English sentence embedding model by WhereIsAI. Its embedding dimension is 1024, and it takes up to 512 context length."
+    },
+    {
+      "name": "M2-BERT 80M 32K Retrieval",
+      "description": "An 80M checkpoint of M2-BERT, pretrained with sequence length 32768, and it has been fine-tuned for long-context retrieval."
+    },
+    {
+      "name": "BGE-Large-EN v1.5",
+      "description": "BAAI general embedding - large, English - model v1.5. FlagEmbedding can map any text to a low-dimensional dense vector which can be used for tasks like retrieval, classification, clustering, or semantic search."
+    },
+    {
+      "name": "M2-BERT 80M 2K Retrieval",
+      "description": "An 80M checkpoint of M2-BERT, pretrained with sequence length 2048, and it has been fine-tuned for long-context retrieval."
+    },
+    {
+      "name": "M2-BERT 80M 8K Retrieval",
+      "description": "An 80M checkpoint of M2-BERT, pretrained with sequence length 8192, and it has been fine-tuned for long-context retrieval."
+    },
+    {
+      "name": "BGE-Base-EN v1.5",
+      "description": "BAAI general embedding - base, English - model v1.5. FlagEmbedding can map any text to a low-dimensional dense vector for retrieval, classification, clustering, or semantic search."
+    },
+    {
+      "name": "BERT",
+      "description": "Pretrained model on English language using a masked language modeling (MLM) objective. The embedding dimension is 768, and the number of model parameters is 110M. This model is uncased: it does not make a difference between 'english' and 'English.'"
+    },
+    {
+      "name": "Sentence-BERT",
+      "description": "Maps sentences and paragraphs to a 768-dimensional dense vector space. It is designed for semantic search and trained on 500K (query, answer) pairs from the MS MARCO dataset."
+    }
+  ]
+}
