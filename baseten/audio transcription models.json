@@ -1,0 +1,80 @@
+
+{
+  "models": [
+    {
+      "name": "Whisper (best performance)",
+      "type": "Audio transcription",
+      "hardware": "H100 MIG 40GB",
+      "description": "Access our most performant Whisper implementations for high-throughput production workloads.",
+      "example_usage": {
+        "language": "Python",
+        "code": "import requests\nimport os\n# Model ID for production deployment\nmodel_id = \"\"\n# Read secrets from environment variables\nbaseten_api_key = os.environ[\"BASETEN_API_KEY\"]\nresp = requests.post(\n    f\"https://model-{model_id}.api.baseten.co/production/predict\",\n    headers={\"Authorization\": f\"Api-Key {baseten_api_key}\"},\n    json={\"url\": \"https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav\"}\n)\nprint(resp.content.decode(\"utf-8\"))"
+      },
+      "json_output": {
+        "segments": [
+          {
+            "start": 0,
+            "end": 9.8,
+            "text": "Four score and seven years ago, our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal."
+          }
+        ],
+        "language_code": "en"
+      },
+      "version": "V3",
+      "size": "Medium",
+      "license": "MIT"
+    },
+    {
+      "name": "Whisper V3",
+      "type": "Audio transcription",
+      "hardware": "H100 MIG 40GB",
+      "description": "A low-latency Whisper V3 deployment optimized for shorter audio clips.",
+      "example_usage": {
+        "language": "Python",
+        "code": "import requests\nimport os\n# Replace the empty string with your model id below\nmodel_id = \"\"\ndata = {\"url\": \"https://cdn.baseten.co/docs/production/Gettysburg.mp3\"}\nres = requests.post(\n    f\"https://model-{model_id}.api.baseten.co/production/predict\",\n    headers={\"Authorization\": f\"Api-Key {baseten_api_key}\"},\n    json=data\n)\nprint(res.json())"
+      },
+      "json_output": {
+        "language": "english",
+        "segments": [
+          {
+            "start": 0,
+            "end": 6.52,
+            "text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation"
+          },
+          {
+            "start": 6.52,
+            "end": 11,
+            "text": "conceived in liberty and dedicated to the proposition that all men are created equal."
+          }
+        ],
+        "text": "Four score and seven years ago, our fathers brought forth upon this continent a new nation conceived in liberty and dedicated to the proposition that all men are created equal."
+      },
+      "version": "V3",
+      "size": "Medium",
+      "license": "MIT"
+    },
+    {
+      "name": "Whisper V3 Turbo",
+      "type": "Audio transcription",
+      "hardware": "H100 MIG 40GB",
+      "description": "A low-latency Whisper V3 Turbo deployment optimized for shorter audio clips.",
+      "example_usage": {
+        "language": "Python",
+        "code": "import requests\nimport os\n# Model ID for production deployment\nmodel_id = \"\"\n# Read secrets from environment variables\nbaseten_api_key = os.environ[\"BASETEN_API_KEY\"]\nresp = requests.post(\n    f\"https://model-{model_id}.api.baseten.co/production/predict\",\n    headers={\"Authorization\": f\"Api-Key {baseten_api_key}\"},\n    json={\"url\": \"https://www2.cs.uic.edu/~i101/SoundFiles/gettysburg10.wav\"}\n)\nprint(resp.content.decode(\"utf-8\"))"
+      },
+      "json_output": {
+        "segments": [
+          {
+            "start": 0,
+            "end": 9.8,
+            "text": "Four score and seven years ago, our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal."
+          }
+        ],
+        "language_code": "en"
+      },
+      "version": "V3",
+      "variant": "Turbo",
+      "license": "MIT"
+    }
+  ]
+}
