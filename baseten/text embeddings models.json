@@ -1,0 +1,92 @@
+
+
+{
+  "models": [
+    {
+      "name": "Nomic Embed v1.5",
+      "type": "Text Embeddings",
+      "hardware": "T4",
+      "description": "State-of-the-art text embedding model with variable dimensionality. Allows optimization for retrieval, search, clustering, or classification. Dimensionality ranges from 64 to 768.",
+      "parameters": {
+        "texts": "List of strings to embed",
+        "task_type": "search_document (default), search_query, clustering, or classification",
+        "dimensionality": "Integer between 64 and 768 (default: 512)"
+      },
+      "input_example": {
+        "texts": ["I want to eat pasta", "I want to eat pizza"],
+        "task_type": "search_document",
+        "dimensionality": 512
+      },
+      "output_example": [
+        [-0.03811980411410332, "...", -0.023593541234731674],
+        [-0.042617011815309525, "...", -0.0191882885992527]
+      ],
+      "developer": "Nomic AI",
+      "license": "Apache 2.0",
+      "version": "v1.5",
+      "use_case": "text embeddings"
+    },
+    {
+      "name": "All MPNet Base V2",
+      "type": "Text Embeddings",
+      "hardware": "CPU",
+      "description": "Text embedding model with a context window of 384 tokens and dimensionality of 768. Strings exceeding 384 tokens are truncated.",
+      "parameters": {
+        "text": "List of strings to embed"
+      },
+      "input_example": {
+        "text": ["I want to eat pasta", "I want to eat pizza"]
+      },
+      "output_example": [
+        [0.2593194842338562, "...", -1.4059709310531616],
+        [0.11028853803873062, "...", -0.9492666125297546]
+      ],
+      "developer": "Microsoft",
+      "license": "Apache 2.0",
+      "version": "v2",
+      "use_case": "text embeddings"
+    },
+    {
+      "name": "All MiniLM L6 v2",
+      "type": "Text Embeddings",
+      "hardware": "CPU",
+      "description": "Text embedding model with a context window of 256 tokens and dimensionality of 384. Strings exceeding 256 tokens are truncated.",
+      "parameters": {
+        "text": "List of strings to embed"
+      },
+      "input_example": {
+        "text": ["I want to eat pasta", "I want to eat pizza"]
+      },
+      "output_example": [
+        [0.2593194842338562, "...", -1.4059709310531616],
+        [0.11028853803873062, "...", -0.9492666125297546]
+      ],
+      "developer": "Microsoft",
+      "license": "Apache 2.0",
+      "version": "v2",
+      "use_case": "text embeddings"
+    },
+    {
+      "name": "Jina Embeddings V2 Base EN",
+      "type": "Text Embeddings",
+      "hardware": "CPU",
+      "description": "Text embedding model with a context window of 8192 tokens and dimensionality of 768. Maximum token length can be adjusted via 'max_length'.",
+      "parameters": {
+        "text": "List of strings to embed",
+        "max_length": "Maximum token length (default: 8192)"
+      },
+      "input_example": {
+        "text": ["I want to eat pasta", "I want to eat pizza"],
+        "max_length": 8192
+      },
+      "output_example": [
+        [0.2593194842338562, "...", -1.4059709310531616],
+        [0.11028853803873062, "...", -0.9492666125297546]
+      ],
+      "developer": "Jina AI",
+      "license": "Apache 2.0",
+      "version": "V2",
+      "use_case": "text embeddings"
+    }
+  ]
+}
