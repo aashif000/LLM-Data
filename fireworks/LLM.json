@@ -1,0 +1,729 @@
+[
+    {
+        "name": "Deepseek V3",
+        "description": "Deepseek V3 is a powerful language model designed for serverless applications, offering a context length of 128k tokens, making it suitable for extensive text processing tasks.",
+        "size": "N/A",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.1 405B Instruct",
+        "description": "Llama 3.1 405B Instruct is a state-of-the-art model optimized for instruction-based tasks, featuring a massive 405 billion parameters and a context length of 128k tokens.",
+        "size": "405B",
+        "Pricing": "$3.00/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.1 8B Instruct",
+        "description": "Llama 3.1 8B Instruct is a compact yet powerful model with 8 billion parameters, designed for instruction-following tasks with a context length of 128k tokens.",
+        "size": "8B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.2 3B Instruct",
+        "description": "Llama 3.2 3B Instruct is a lightweight model with 3 billion parameters, ideal for quick instruction-based applications, supporting a context length of 128k tokens.",
+        "size": "3B",
+        "Pricing": "$0.10/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.3 70B Instruct",
+        "description": "Llama 3.3 70B Instruct is a robust model with 70 billion parameters, tailored for complex instruction tasks, featuring a context length of 128k tokens.",
+        "size": "70B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-32B-Instruct",
+        "description": "Qwen2.5-Coder-32B-Instruct is a specialized coding model with 32 billion parameters, optimized for serverless environments and capable of handling a context length of 32k tokens.",
+        "size": "32B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama Guard 7B",
+        "description": "Llama Guard 7B is a protective model designed to enhance safety in AI applications, featuring a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Zephyr 7B Beta",
+        "description": "Zephyr 7B Beta is an experimental model with 7 billion parameters, designed for various text generation tasks with a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 2 13B Chat",
+        "description": "Llama 2 13B Chat is a conversational model with 13 billion parameters, optimized for chat applications and supporting a context length of 4k tokens.",
+        "size": "13B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "CodeGemma 7B",
+        "description": "CodeGemma 7B is a coding-focused model with 7 billion parameters, designed for code generation tasks with a context length of 8k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Mixtral MoE 8x7B Instruct (HF version)",
+        "description": "Mixtral MoE 8x7B Instruct is a mixture of experts model with 8 experts, each having 7 billion parameters, optimized for instruction tasks with a context length of 32k tokens.",
+        "size": "8x7B",
+        "Pricing": "$0.50/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "DeepSeek Coder 1.3B Base",
+        "description": "DeepSeek Coder 1.3B Base is a foundational coding model with 1.3 billion parameters "description": "DeepSeek Coder 1.3B Base is a foundational coding model with 1.3 billion parameters, designed for basic coding tasks and supporting a context length of 16k tokens.",
+        "size": "1.3B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "CodeGemma 2B",
+        "description": "CodeGemma 2B is a lightweight coding model with 2 billion parameters, suitable for small-scale code generation tasks with a context length of 8k tokens.",
+        "size": "2B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Qwen 1.5 7B",
+        "description": "Code Qwen 1.5 7B is a coding model with 7 billion parameters, optimized for code-related tasks and capable of handling a context length of 64k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Yi-Large",
+        "description": "Yi-Large is a large-scale model designed for serverless applications, featuring a context length of 32k tokens and priced at $3.00 per million tokens.",
+        "size": "N/A",
+        "Pricing": "$3.00/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "DeepSeek Coder V2 Lite Base",
+        "description": "DeepSeek Coder V2 Lite Base is a lightweight version of the DeepSeek Coder, designed for efficient coding tasks with a context length of 160k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3 70B Instruct (HF version)",
+        "description": "Llama 3 70B Instruct (HF version) is a high-performance model with 70 billion parameters, optimized for instruction tasks and supporting a context length of 8k tokens.",
+        "size": "70B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Hermes 2 Pro Mistral 7B",
+        "description": "Hermes 2 Pro Mistral 7B is a versatile model with 7 billion parameters, designed for various applications with a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "DeepSeek V2 Lite Chat",
+        "description": "DeepSeek V2 Lite Chat is a chat-optimized model designed for conversational applications, featuring a context length of 160k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama V3p1 70b Instruct 1b",
+        "description": "Llama V3p1 70b Instruct 1b is a refined model with 70 billion parameters, tailored for instruction tasks with a context length of 1 billion tokens.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5 72B Instruct",
+        "description": "Qwen2.5 72B Instruct is a powerful model with 72 billion parameters, optimized for instruction tasks and supporting a context length of 32k tokens.",
+        "size": "72B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Mistral Nemo Instruct 2407",
+        "description": "Mistral Nemo Instruct 2407 is a specialized model designed for instruction tasks, featuring a context length of 125k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Mixtral MoE 8x22B Instruct",
+        "description": "Mixtral MoE 8x22B Instruct is a mixture of experts model with 8 experts, each having 22 billion parameters, optimized for instruction tasks with a context length of 64k tokens.",
+        "size": "8x22B",
+        "Pricing": "$1.20/M Tokens",
+        "Type": "LLM"
+    },
+ {
+        "name": "Llama 3 8B Instruct",
+        "description": "Llama 3 8B Instruct is a compact model with 8 billion parameters, designed for instruction-following tasks with a context length of 8k tokens.",
+        "size": "8B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3 70B Instruct",
+        "description": "Llama 3 70B Instruct is a high-capacity model with 70 billion parameters, optimized for instruction tasks and supporting a context length of 8k tokens.",
+        "size": "70B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "OpenChat 3.5 0106",
+        "description": "OpenChat 3.5 0106 is a conversational model designed for chat applications, featuring a context length of 8k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Deepseek Coder 7B Instruct v1.5",
+        "description": "Deepseek Coder 7B Instruct v1.5 is a coding model with 7 billion parameters, optimized for instruction tasks with a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Toppy M 7B",
+        "description": "Toppy M 7B is a versatile model with 7 billion parameters, designed for various applications with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Nous Hermes Llama2 7B",
+        "description": "Nous Hermes Llama2 7B is a conversational model with 7 billion parameters, optimized for chat applications with a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "OpenHermes 2 - Mistral 7B",
+        "description": "OpenHermes 2 - Mistral 7B is a versatile model with 7 billion parameters, designed for various applications with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Nous Capybara 7B V1.9",
+        "description": "Nous Capybara 7B V1.9 is a specialized model with 7 billion parameters, designed for specific tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Gemma 7B",
+        "description": "Gemma 7B is a general-purpose model with 7 billion parameters, suitable for various text generation tasks with a context length of 8k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Deepseek Coder 33B Instruct",
+        "description": "Deepseek Coder 33B Instruct is a powerful coding model with 33 billion parameters, optimized for instruction tasks with a context length of 16k tokens.",
+        "size": "33B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Chronos Hermes 13B v2",
+        "description": "Chronos Hermes 13B v2 is a versatile model with 13 billion parameters, designed for various applications with a context length of 4k tokens.",
+        "size": "13B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Nous Hermes Llama2 13B",
+        "description": "Nous Hermes Llama2 13B is a conversational model with 13 billion parameters, optimized for chat applications with a context length of 4k tokens.",
+        "size": "13B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Phind CodeLlama 34B v2",
+        " "description": "Phind CodeLlama 34B v2 is a specialized coding model with 34 billion parameters, optimized for code generation tasks with a context length of 16k tokens.",
+        "size": "34B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Yi 34B",
+        "description": "Yi 34B is a large-scale model designed for various applications, featuring a context length of 4k tokens.",
+        "size": "34B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Nous Hermes Llama2 70B",
+        "description": "Nous Hermes Llama2 70B is a powerful conversational model with 70 billion parameters, optimized for chat applications with a context length of 4k tokens.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Nous Hermes 2 - Mixtral 8x7B - DPO",
+        "description": "Nous Hermes 2 - Mixtral 8x7B - DPO is a mixture of experts model designed for diverse applications, featuring a context length of 32k tokens.",
+        "size": "8x7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2p5 Math 72b Instruct",
+        "description": "Qwen2p5 Math 72b Instruct is a specialized model for mathematical tasks, featuring 72 billion parameters and a context length of 4k tokens.",
+        "size": "72B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 2 70B Chat",
+        "description": "Llama 2 70B Chat is a conversational model with 70 billion parameters, optimized for chat applications with a context length of 4k tokens.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Mistral 7B Instruct v0.2",
+        "description": "Mistral 7B Instruct v0.2 is a versatile model with 7 billion parameters, designed for instruction tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 2 7B Chat",
+        "description": "Llama 2 7B Chat is a lightweight conversational model with 7 billion parameters, optimized for chat applications with a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Mistral 7B",
+        "description": "Mistral 7B is a general-purpose model with 7 billion parameters, suitable for various text generation tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 2 7B",
+        "description": "Llama 2 7B is a compact model with 7 billion parameters, designed for various applications with a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Snorkel Mistral PairRM DPO",
+        "description": "Snorkel Mistral PairRM DPO is a specialized model designed for pairwise ranking tasks, featuring a context length of 32k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Mistral 7B Instruct v0.1",
+        "description": "Mistral 7B Instruct v0.1 is an early version of the Mistral model, designed for instruction tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Llama 7B",
+        "description": "Code Llama 7B is a coding model with 7 billion parameters, optimized for code generation tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "StarCoder 7B",
+        "description": "StarCoder 7B is a coding-focused model with 7 billion parameters, designed for efficient code generation tasks with a context length of 8k tokens.",
+        "size": "7B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Llama 7B Python",
+        "description": "Code Llama 7B Python is a specialized coding model with 7 billion parameters, optimized for Python code generation tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Llama 7B Instruct",
+        "description": "Code Llama 7B Instruct is a coding model with 7 billion parameters, designed for instruction-following tasks in code generation with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Llama 13B",
+        "description": "Code Llama 13B is a powerful coding model with 13 billion parameters, optimized for complex code generation tasks with a context length of 32k tokens.",
+        "size": "13B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "StarCoder2 15B",
+        "description": "StarCoder2 15B is an advanced coding model with 15 billion parameters, designed for high-performance code generation tasks with a context length of 16k tokens.",
+        "size": "15B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "StarCoder2 3B",
+        "description": "StarCoder2 3B is a lightweight coding model with 3 billion parameters, suitable for small-scale code generation tasks with a context length of 16k tokens.",
+        "size": "3B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Gemma 2B Instruct",
+        "description": "Gemma 2B Instruct is a coding model with 2 billion parameters, optimized for instruction tasks in code generation with a context length of 8k tokens.",
+        "size": "2B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Llama 13B Python",
+        "description": "Code Llama 13B Python is a specialized coding model with 13 billion parameters, optimized for Python code generation tasks with a context length of 32k tokens.",
+        "size": "13B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Llama 70B Python",
+        "description": "Code Llama 70B Python is a high-capacity coding model with 70 billion parameters, designed for complex Python code generation tasks with a context length of 4k tokens.",
+        "size": "70B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Deepseek Coder 7B Base v1.5",
+        "description": "Deepseek Coder 7B Base v1.5 is a foundational coding model with 7 billion parameters, designed for basic coding tasks with a context length of 4k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "OpenHermes 2.5 - Mistral 7B",
+        "description": "OpenHermes 2.5 - Mistral 7B is a versatile model with 7 billion parameters, designed for various applications with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "LLaVA V1.6 Yi 34B",
+        "description": "LLaVA V1.6 Yi 34B is a large-scale model designed for various applications, featuring a context length of 4k tokens.",
+        "size": "34B "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Nous Hermes 2 - Yi 34B",
+        "description": "Nous Hermes 2 - Yi 34B is a powerful conversational model with 34 billion parameters, optimized for chat applications with a context length of 4k tokens.",
+        "size": "34B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Phind CodeLlama 34B Python v1",
+        "description": "Phind CodeLlama 34B Python v1 is a specialized coding model with 34 billion parameters, optimized for Python code generation tasks with a context length of 16k tokens.",
+        "size": "34B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Yi 34B Chat",
+        "description": "Yi 34B Chat is a conversational model with 34 billion parameters, designed for chat applications with a context length of 4k tokens.",
+        "size": "34B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen1.5 72B Chat",
+        "description": "Qwen1.5 72B Chat is a conversational model with 72 billion parameters, optimized for chat applications with a context length of 32k tokens.",
+        "size": "72B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "DBRX Instruct",
+        "description": "DBRX Instruct is a specialized model designed for instruction tasks, featuring a context length of 32k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3 8B",
+        "description": "Llama 3 8B is a compact model with 8 billion parameters, designed for various applications with a context length of 8k tokens.",
+        "size": "8B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.2 3B",
+        "description": "Llama 3.2 3B is a lightweight model with 3 billion parameters, suitable for quick applications with a context length of 128k tokens.",
+        "size": "3B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "FireLLaVA-13B",
+        "description": "FireLLaVA-13B is a versatile model with 13 billion parameters, designed for various applications with a context length of 4k tokens.",
+        "size": "13B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Gemma 2 9B Instruct",
+        "description": "Gemma 2 9B Instruct is a coding model with 9 billion parameters, optimized for instruction tasks in code generation with a context length of 8k tokens.",
+        "size": "9B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5 14B Instruct",
+        "description": "Qwen2.5 14B Instruct is a powerful model with 14 billion parameters, optimized for instruction tasks with a context length of 32k tokens.",
+        "size": "14B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5 Coder 1.5B Instruct",
+        "description": "Qwen2.5 Coder 1.5B Instruct is a lightweight coding model with 1.5 billion parameters, designed for instruction tasks with a context length of 32k tokens.",
+        "size": "1.5B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen Qwq 32b Preview",
+        "description": "Qwen Qwq 32b Preview is a preview model with 32 billion parameters, designed for various applications with a context length of 32k tokens.",
+        "size": "32B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": " Qwen2.5 7B Instruct",
+        "description": "Qwen2.5 7B Instruct is a robust model with 7 billion parameters, optimized for instruction tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-7B-Instruct",
+        "description": "Qwen2.5-Coder-7B-Instruct is a specialized coding model with 7 billion parameters, designed for instruction tasks in coding with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Deepseek Coder V2 Lite",
+        "description": "Deepseek Coder V2 Lite is a lightweight coding model designed for efficient coding tasks with a context length of 160k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3 8B Instruct (HF version)",
+        "description": "Llama 3 8B Instruct (HF version) is a compact model with 8 billion parameters, optimized for instruction tasks with a context length of 8k tokens.",
+        "size": "8B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.2 1B Instruct",
+        "description": "Llama 3.2 1B Instruct is a lightweight model with 1 billion parameters, suitable for quick instruction tasks with a context length of 128k tokens.",
+        "size": "1B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.2 11B Vision Instruct",
+        "description": "Llama 3.2 11B Vision Instruct is a vision-optimized model with 11 billion parameters, designed for visual instruction tasks with a context length of 128k tokens.",
+        "size": "11B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Code Llama 34B Instruct",
+        "description": "Code Llama 34B Instruct is a powerful coding model with 34 billion parameters, optimized for instruction tasks in code generation with a context length of 32k tokens.",
+        "size": "34B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2 VL 2B Instruct",
+        "description": "Qwen2 VL 2B Instruct is a lightweight model with 2 billion parameters, designed for instruction tasks with a context length of 32k tokens.",
+        "size": "2B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Flux 1 Dev Controlnet Union",
+        "description": "Flux 1 Dev Controlnet Union is a specialized model designed for control tasks, featuring a context length of N/A.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2 VL 72B Instruct",
+        "description": "Qwen2 VL 72B Instruct is a powerful model with 72 billion parameters, optimized for instruction tasks with a context length of 32k tokens.",
+        "size": "72B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2 VL 7B Instruct",
+        "description": "Qwen2 VL 7B Instruct is a versatile model with 7 billion parameters, designed for instruction tasks with a context length of 32k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "FireFunction V2",
+        "description": "FireFunction V2 is a serverless model designed for efficient function execution, featuring a context length of N/A.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-14B",
+        "description": "Qwen2 .5-Coder-14B is a specialized coding model with 14 billion parameters, designed for instruction tasks in coding with a context length of 32k tokens.",
+        "size": "14B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5 Coder 1.5B",
+        "description": "Qwen2.5 Coder 1.5B is a lightweight coding model with 1.5 billion parameters, optimized for coding tasks with a context length of 32k tokens.",
+        "size": "1.5B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-3B",
+        "description": "Qwen2.5-Coder-3B is a coding model with 3 billion parameters, designed for instruction tasks in coding with a context length of 32k tokens.",
+        "size": "3B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "DeepSeek Coder V2 Instruct",
+        "description": "DeepSeek Coder V2 Instruct is an advanced coding model designed for instruction tasks, featuring a context length of 128k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "DeepSeek V2.5",
+        "description": "DeepSeek V2.5 is an enhanced version of the DeepSeek model, designed for various applications with a context length of 160k tokens.",
+        "size": "N/A",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama Guard 3 8b",
+        "description": "Llama Guard 3 8b is a protective model with 8 billion parameters, designed to enhance safety in AI applications with a context length of 128k tokens.",
+        "size": "8B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama V3p1 405b Instruct Long",
+        "description": "Llama V3p1 405b Instruct Long is a high-capacity model with 405 billion parameters, optimized for long instruction tasks in serverless environments.",
+        "size": "405B",
+        "Pricing": "$3.00/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-0.5B-Instruct",
+        "description": "Qwen2.5-Coder-0.5B-Instruct is a lightweight coding model with 0.5 billion parameters, designed for basic coding tasks with a context length of 32k tokens.",
+        "size": "0.5B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-3B-Instruct",
+        "description": "Qwen2.5-Coder-3B-Instruct is a coding model with 3 billion parameters, optimized for instruction tasks in coding with a context length of 32k tokens.",
+        "size": "3B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.1 70B Instruct",
+        "description": "Llama 3.1 70B Instruct is a powerful model with 70 billion parameters, optimized for instruction tasks with a context length of 128k tokens.",
+        "size": "70B",
+        "Pricing": "$0.90/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-32B",
+        "description": "Qwen2.5-Coder-32B is a specialized coding model with 32 billion parameters, designed for instruction tasks in coding with a context length of 32k tokens.",
+        "size": "32B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.2 90B Vision Instruct",
+        "description": "Llama 3.2 90B Vision Instruct is a vision-optimized model with 90 billion parameters, designed for visual instruction tasks with a context length of 128k tokens.",
+        "size": "90B",
+        "Pricing": "$0.90 /M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-0.5B",
+        "description": "Qwen2.5-Coder-0.5B is a lightweight coding model with 0.5 billion parameters, designed for basic coding tasks with a context length of 32k tokens.",
+        "size": "0.5B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5-Coder-14B-Instruct",
+        "description": "Qwen2.5-Coder-14B-Instruct is a specialized coding model with 14 billion parameters, optimized for instruction tasks in coding with a context length of 32k tokens.",
+        "size": "14B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Capybara 34B",
+        "description": "Capybara 34B is a large-scale model designed for various applications, featuring a context length of 195k tokens.",
+        "size": "34B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Phi 3.5 Vision Instruct",
+        "description": "Phi 3.5 Vision Instruct is a vision-optimized model designed for visual tasks, featuring a context length of 31k tokens.",
+        "size": "N/A",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Qwen2.5 7B 128k Context",
+        "description": "Qwen2.5 7B is a robust model with 7 billion parameters, optimized for various tasks with a context length of 128k tokens.",
+        "size": "7B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Mixtral Moe 8x22B 64k Context",
+        "description": "Mixtral Moe 8x22B is a mixture of experts model with 8 experts, each having 22 billion parameters, optimized for various tasks with a context length of 64k tokens.",
+        "size": "8x22B",
+        "Pricing": "$1.20/M Tokens",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama 3.2 1B 128k Context",
+        "description": "Llama 3.2 1B is a lightweight model with 1 billion parameters, suitable for quick applications with a context length of 128k tokens.",
+        "size": "1B",
+        "Pricing": "N/A",
+        "Type": "LLM"
+    },
+    {
+        "name": "Llama Guard v3 1B 128k Context",
+        "description": "Llama Guard v3 1B is a protective model with 1 billion parameters, designed to enhance safety in AI applications with a context length of 128k tokens.",
+        "size": "1B",
+        "Pricing": "$0.20/M Tokens",
+        "Type": "LLM"
+    }
+]
