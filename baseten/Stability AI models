@@ -1,0 +1,116 @@
+
+{
+  "models": [
+    {
+      "name": "Stable Diffusion XL",
+      "type": "Image generation",
+      "hardware": "A10G",
+      "description": "A text-to-image foundation model that generates detailed images from short prompts.",
+      "inputs": {
+        "prompt": "Text describing the desired image.",
+        "width": "Width of the image in pixels. Default: 1024.",
+        "height": "Height of the image in pixels. Default: 1024.",
+        "negative_prompt": "Text steering the model away from unwanted features.",
+        "num_inference_steps": "Number of iterations for generating the image.",
+        "guidance_scale": "Strength of the adherence to the text prompt."
+      },
+      "output": {
+        "key": "data",
+        "format": "Base64 string representing the generated image."
+      },
+      "example": {
+        "prompt": "Extremely detailed scene of baby phoenix hatchling...",
+        "negative_prompt": "worst quality, low quality",
+        "width": 1248,
+        "height": 832,
+        "num_inference_steps": 35,
+        "guidance_scale": 14
+      }
+    },
+    {
+      "name": "Stable Video Diffusion",
+      "type": "Image to video",
+      "hardware": "A100",
+      "description": "An image-to-video model that adds motion to a provided image at 14 or 25 frames per second.",
+      "inputs": {
+        "image": "Base64 string of the input image.",
+        "num_frames": "Number of frames in the output video (14 or 25).",
+        "fps": "Frames per second in the output video.",
+        "decoding_t": "Number of frames decoded at a given time."
+      },
+      "output": {
+        "key": "output",
+        "format": "Base64 string representing the generated video."
+      },
+      "example": {
+        "image": "Base64 string of './pirate_ship.jpeg'",
+        "num_frames": 14,
+        "fps": 6,
+        "decoding_t": 5,
+        "duration": 2
+      }
+    },
+    {
+      "name": "Comfy UI",
+      "type": "Image generation",
+      "hardware": "A10G",
+      "description": "Run your ComfyUI workflow as an API.",
+      "inputs": {
+        "positive_prompt": "Detailed description of the desired image.",
+        "negative_prompt": "Details to avoid in the image.",
+        "seed": "Random seed for reproducibility.",
+        "workflow_values": "Values for the ComfyUI workflow."
+      },
+      "output": {
+        "key": "result",
+        "format": "Base64 string for generated images."
+      },
+      "example": {
+        "positive_prompt": "A highly detailed photo of a modern steampunk city...",
+        "negative_prompt": "blurry, text, low quality",
+        "controlnet_image": "URL to an input image.",
+        "seed": 123456
+      }
+    },
+    {
+      "name": "SDXL ControlNet Canny",
+      "type": "Image generation",
+      "hardware": "A10G",
+      "description": "Image generation pipeline using Canny edges for control.",
+      "inputs": {
+        "prompt": "Text describing the desired image.",
+        "image": "Base64 string of the input image."
+      },
+      "output": {
+        "key": "result",
+        "format": "Base64 string representing the generated image."
+      },
+      "example": {
+        "prompt": "An igloo on a snowy day, 4k, hd",
+        "image": "Base64 string of input image."
+      }
+    },
+    {
+      "name": "SDXL ControlNet Depth",
+      "type": "Image generation",
+      "hardware": "A10G",
+      "description": "Image generation pipeline using depth estimation for control.",
+      "inputs": {
+        "prompt": "Text describing the desired image.",
+        "image": "Base64 string of the input image."
+      },
+      "output": {
+        "key": "result",
+        "format": "Base64 string representing the generated image."
+      },
+      "example": {
+        "prompt": "A picture of a raccoon",
+        "image": "Base64 string of input image."
+      }
+    }
+  ],
+  "common_details": {
+    "developed_by": "Stability AI",
+    "license": "OpenRAIL++M or Stability membership"
+  }
+}
